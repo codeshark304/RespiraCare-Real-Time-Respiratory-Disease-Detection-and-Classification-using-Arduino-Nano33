@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'hi,ta,te,kn,ml,gu,mr,bn,pa,ur',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RespiraCare – AI-Powered Respiratory Health Assistant</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #0073e6;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .navbar .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .navbar .nav-links a:hover {
+      color: #00a8e8;
+    }
+
+    .navbar .nav-links select {
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: none;
+      background: white;
+      color: #0073e6;
+      font-size: 1rem;
+    }
+
+    /* Hero Banner Section */
+    /* Hero Banner Section */
+   .hero-banner {
+    text-align: center;
+    padding: 220px 20px;
+    background-image: url('RespiraCare_bgImg.webp'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+   .hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+}
+
+   .hero-banner .content {
+    position: relative;
+    z-index: 3;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+    .hero-banner h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeInDown 1.5s ease-in-out;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+    .hero-banner p {
+      font-size: 1.5rem;
+      margin: 20px 0 0;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    /* Instruction Cards Section */
+    .instruction-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 60px 20px;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 217px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .card i {
+      font-size: 2.5rem;
+      color: #0073e6;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover i {
+      transform: scale(1.2);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin: 15px 0;
+      transition: color 0.3s ease;
+    }
+
+    .card:hover h2 {
+      color: #0073e6;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* About Us Section */
+    .about-us {
+      padding: 80px 20px;
+      background: #f0f8ff; /* Light blue background */
+      text-align: center;
+      display: block; 
+    }
+
+    .about-us h2 {
+      font-size: 2.5rem;
+      color: #0073e6;
+      margin-bottom: 20px;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+
+    .about-us p {
+      font-size: 1.1rem;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      line-height: 1.8;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .about-us .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .about-us .feature-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .about-us .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-us .feature-card i {
+      font-size: 2.5rem;
+      color: #0073e6;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .about-us .feature-card:hover i {
+      transform: scale(1.2);
+    }
+
+    .about-us .feature-card h3 {
+      font-size: 1.5rem;
+      margin: 15px 0;
+      color: #0073e6;
+    }
+
+    .about-us .feature-card p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+    }
+    html {
+       scroll-behavior: smooth;
+    }
+    
+    .contact-section {
+        display: flex;
+        justify-content: center;  /* Centers horizontally */
+        align-items: center;      /* Centers vertically */
+        text-align: center;       /* Ensures text is centered */
+        height: 20vh;            /* Makes it take full viewport height */
+}
+
+      .contact-container {
+        max-width: 600px;
+        margin: 0 auto;
+}
+
+      .contact-section h2 {
+        font-size: 2rem;
+        color: #0073e6;
+        margin-bottom: 0px;
+}
+
+      .contact-info p {
+        font-size: 1.1rem;
+        color: #333;
+        margin: 5px 0;
+}
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0073e6;
+      color: white;
+      margin-top: 60px;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 15px 20px;
+      }
+
+      .navbar .nav-links {
+        gap: 15px;
+      }
+
+      .navbar .nav-links a {
+        font-size: 0.9rem;
+      }
+
+      .navbar .nav-links select {
+        font-size: 0.9rem;
+      }
+
+      .hero-banner h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-banner p {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .about-us h2 {
+        font-size: 2rem;
+      }
+
+      .about-us p {
+        font-size: 1rem;
+      }
+
+      .about-us .feature-card {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .navbar .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .hero-banner h1 {
+        font-size: 2rem;
+      }
+
+      .hero-banner p {
+        font-size: 1rem;
+      }
+
+      .card h2 {
+        font-size: 1.3rem;
+      }
+
+      .card p {
+        font-size: 0.9rem;
+      }
+
+      .about-us h2 {
+        font-size: 1.8rem;
+      }
+
+      .about-us p {
+        font-size: 0.9rem;
+      }
+
+      .about-us .feature-card h3 {
+        font-size: 1.3rem;
+      }
+
+      .about-us .feature-card p {
+        font-size: 0.9rem;
+      }
+      .about-us .html {
+        scroll-behavior: smooth;
+      }
+    
+
+
+  </style>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">RespiraCare</div>
+    <div class="nav-links">
+      <a href="#" id="homeLink">Home</a>
+      <a href="#about">About Us</a>
+      <a href="find_a_doctor.html" id="findDoctorLink">Find Doctor</a>
+      <a href="#contact">Contact Us</a>
+
+    </div>
+  </nav>
+
+  <!-- Hero Banner Section -->
+  <section class="hero-banner">
+    <div class="content">
+      <h1>Welcome to RespiraCare</h1>
+      <p>Your AI-Powered Respiratory Health Assistant</p>
+    </div>
+  </section>
+
+  <!-- Instruction Cards Section -->
+  <section class="instruction-cards">
+    <div class="card">
+      <i class="fas fa-microphone"></i>
+      <h2>Step 1: Prepare to Cough</h2>
+      <p>Ensure you are in a quiet environment and hold the device close to your mouth.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-record-vinyl"></i>
+      <h2>Step 2: Record Your Cough</h2>
+      <p>Cough naturally into the device. The system will record and analyze the sound.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-brain"></i>
+      <h2>Step 3: Analyze with AI</h2>
+      <p>Our AI processes the cough audio to detect respiratory condition patterns.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-file-medical"></i>
+      <h2>Step 4: View Results</h2>
+      <p>Get instant results and recommendations for next steps.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-us">
+    <h2>About Us</h2>
+    <p>
+        At RespiraCare, we are committed to bridging the healthcare gap for rural communities. 
+        Our AI-powered respiratory health assistant is designed to provide accurate, accessible, 
+        and affordable respiratory health diagnostics to those with limited access to medical facilities. 
+        By leveraging cutting-edge technology, we aim to empower individuals to take control of their health.
+      </p>
+      <div class="features">
+        <div class="feature-card">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Our Mission</h3>
+          <p>To make respiratory healthcare accessible and affordable for everyone, especially in rural areas.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-brain"></i>
+          <h3>AI-Powered</h3>
+          <p>Using advanced AI algorithms to analyze cough sounds and detect respiratory conditions.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-users"></i>
+          <h3>For Rural Communities</h3>
+          <p>Designed specifically for people with limited access to healthcare facilities.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +91 98765 43210, +91 87654 32109</p>
+            <p><strong>Email:</strong> support@respiracare.com, info@respiracare.com</p>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 RespiraCare. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Toggle About Us Section
+    const aboutLink = document.getElementById('aboutLink');
+    const aboutUsSection = document.getElementById('aboutUsSection');
+
+    aboutLink.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent default link behavior
+      aboutUsSection.style.display = 'block'; // Show the About Us section
+      aboutUsSection.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the section
+    });
+
+    // Language Selector
+    document.getElementById('language-selector').addEventListener('change', function () {
+      const selectedLanguage = this.value;
+      alert(`Selected Language: ${this.options[this.selectedIndex].text}`);
+      // Add logic to change the language of the website here
+    });
+
+    
+    document.getElementById("language-selector").addEventListener("change", function () {
+        var selectedLang = this.value;
+            var translateDropdown = document.querySelector(".goog-te-combo");
+
+            if (translateDropdown) {
+                translateDropdown.value = selectedLang;
+            translateDropdown.dispatchEvent(new Event("change"));
+        }
+    });
+    
+
+     
+  </script>
+</body>
+</html>
