@@ -19,7 +19,8 @@
 ```
 ## 🔍 System Overview
 -- 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
-![WhatsApp Image 2025-03-21 at 6 13 28 PM](https://github.com/user-attachments/assets/a96d83f7-8a55-444a-8018-e3684062a713)
+![image](https://github.com/user-attachments/assets/7309140f-db6e-47c4-8d70-e147c3c6913b)
+
 --🖥️ Frontend Display Output
 
 
