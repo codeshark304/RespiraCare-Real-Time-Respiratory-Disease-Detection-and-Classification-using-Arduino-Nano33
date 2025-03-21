@@ -45,6 +45,15 @@
 
 ![image](https://github.com/user-attachments/assets/f7757347-708c-46fb-a038-17b7ce5b99aa)
 
+
+
+- Output Display:
+
+
+   ![image](https://github.com/user-attachments/assets/2d01603b-4095-4e79-ae3c-ed41e2cfb06e)
+
+
+
   
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
