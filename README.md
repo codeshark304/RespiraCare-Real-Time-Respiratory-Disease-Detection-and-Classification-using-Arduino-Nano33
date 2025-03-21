@@ -35,7 +35,7 @@
 ![image](https://github.com/user-attachments/assets/aa7a2ee2-eaa9-4e32-8aa8-4daab18aa4c4)
 
 
-- Translation of popular Indian Languges for Wider Accesscibility:
+- Translation of popular Indian Languges for Wider Accessibility:
 
 ![image](https://github.com/user-attachments/assets/0f1ba055-1e14-484e-a791-117197b2b0bc)
 
