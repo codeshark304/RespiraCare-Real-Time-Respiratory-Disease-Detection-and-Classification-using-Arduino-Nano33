@@ -9,7 +9,7 @@
 - **Arduino Nano 33 integration** for portable and efficient data collection.
 - **User-friendly interface** for easy interpretation of results.
 - **Affordable and accessible** solution for rural healthcare.
-- 
+  
 
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
@@ -22,8 +22,9 @@
 
 ![image](https://github.com/user-attachments/assets/7309140f-db6e-47c4-8d70-e147c3c6913b)
 
---🖥️ Frontend Display Output
+--🖥️ Frontend Display:
 
+![image](https://github.com/user-attachments/assets/aa42908e-e719-42d0-89a1-3adca01f53cf)
 
 
 ### 2️⃣ Install Dependencies
