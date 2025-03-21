@@ -18,11 +18,11 @@
  cd RespiroCare
 ```
 ## 🔍 System Overview
--- 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
+- 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
 
 ![image](https://github.com/user-attachments/assets/7309140f-db6e-47c4-8d70-e147c3c6913b)
 
---🖥️ Frontend Display:
+-🖥️ Frontend Display:
 
 ![image](https://github.com/user-attachments/assets/aa42908e-e719-42d0-89a1-3adca01f53cf)
 
@@ -41,6 +41,6 @@ pip install -r requirements.txt  # Install Python dependencies
 3. The AI model **analyzes the sound in real time**.
 4. Results are displayed, indicating potential respiratory conditions.
 
---ps: We would have achieved a better accuracy if we had better resourses ;)
+-ps: We would have achieved a better accuracy if we had better resourses ;)
 
 
