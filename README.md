@@ -1,4 +1,4 @@
-# RespiraCare: Real-Time Respiratory Disease Detection and Classification
+# RespiraCare: Real-Time Respiratory disease Detection and Classification
 
 ## 🚀 Overview
 **RespiraCare** is an AI-powered respiratory disease detection system designed for rural patients. Using an **Arduino Nano 33** and machine learning, the system analyzes cough sounds in real-time to detect and classify potential respiratory conditions. This low-cost, portable solution aims to enhance early diagnosis and healthcare accessibility in underserved areas.
