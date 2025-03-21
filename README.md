@@ -17,7 +17,8 @@
 
 - 🖥️ Frontend Output
 
-![image](https://github.com/user-attachments/assets/64790ff1-c7a3-40d8-bc59-06dac0e2d991)
+
+![image](https://github.com/user-attachments/assets/0e18d78c-8e8b-47ab-a628-079b692e1ae1)
 
 
 ![image](https://github.com/user-attachments/assets/36d0b01b-63fd-43b4-8483-01df8b9f96e4)
@@ -40,10 +41,11 @@
 ![image](https://github.com/user-attachments/assets/0f1ba055-1e14-484e-a791-117197b2b0bc)
 
 
-![image](https://github.com/user-attachments/assets/00bf6259-f1d9-429c-bd1b-17e9e2ee0ff1)
+![image](https://github.com/user-attachments/assets/8a4fc602-0f1b-44d1-8939-99c8c9aaa1be)
 
 
-![image](https://github.com/user-attachments/assets/f7757347-708c-46fb-a038-17b7ce5b99aa)
+![image](https://github.com/user-attachments/assets/30847e05-e8d8-4aff-8e6b-fe9447c872a0)
+
 
 
 
@@ -53,6 +55,10 @@
    ![image](https://github.com/user-attachments/assets/2d01603b-4095-4e79-ae3c-ed41e2cfb06e)
 
 
+## ⚡ Workflow
+
+
+![Blank diagram](https://github.com/user-attachments/assets/521d50fd-7989-4b94-bc58-98ccfbb177fd)
 
   
 ## 📦 Installation
