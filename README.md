@@ -17,10 +17,33 @@
 
 - 🖥️ Frontend Output
 
-  ![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/64790ff1-c7a3-40d8-bc59-06dac0e2d991)
 
 
-  
+![image](https://github.com/user-attachments/assets/36d0b01b-63fd-43b4-8483-01df8b9f96e4)
+
+
+![image](https://github.com/user-attachments/assets/7b5561c9-ca80-4db9-88b5-e67373056e0a)
+
+
+![image](https://github.com/user-attachments/assets/d3a7e4d5-b629-4428-94ec-c3dd266488ce)
+
+
+![image](https://github.com/user-attachments/assets/29124570-5c6c-46cb-9ead-cba2307f20fa)
+
+
+![image](https://github.com/user-attachments/assets/aa7a2ee2-eaa9-4e32-8aa8-4daab18aa4c4)
+
+
+- Translation of popular Indian Languges for Wider Accesscibility:
+
+![image](https://github.com/user-attachments/assets/0f1ba055-1e14-484e-a791-117197b2b0bc)
+
+
+![image](https://github.com/user-attachments/assets/00bf6259-f1d9-429c-bd1b-17e9e2ee0ff1)
+
+
+![image](https://github.com/user-attachments/assets/f7757347-708c-46fb-a038-17b7ce5b99aa)
 
   
 ## 📦 Installation
