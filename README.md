@@ -10,7 +10,7 @@
 - **User-friendly interface** for easy interpretation of results.
 - **Affordable and accessible** solution for rural healthcare.
 
-##🔍 System Overview
+## 🔍 System Overview
 - 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
   
 ![image](https://github.com/user-attachments/assets/7f412311-1de5-47a3-b8e1-ec132d3de166)
