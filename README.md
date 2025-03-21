@@ -9,6 +9,7 @@
 - **Arduino Nano 33 integration** for portable and efficient data collection.
 - **User-friendly interface** for easy interpretation of results.
 - **Affordable and accessible** solution for rural healthcare.
+- 
 
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
@@ -16,6 +17,13 @@
  git clone https://github.com/your-username/RespiroCare.git
  cd RespiroCare
 ```
+## 🔍 System Overview
+-- 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
+![WhatsApp Image 2025-03-21 at 6 13 28 PM](https://github.com/user-attachments/assets/a96d83f7-8a55-444a-8018-e3684062a713)
+--🖥️ Frontend Display Output
+
+
+
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt  # Install Python dependencies
@@ -30,5 +38,6 @@ pip install -r requirements.txt  # Install Python dependencies
 3. The AI model **analyzes the sound in real time**.
 4. Results are displayed, indicating potential respiratory conditions.
 
+--ps: We would have achieved a better accuracy if we had better resourses ;)
 
 
