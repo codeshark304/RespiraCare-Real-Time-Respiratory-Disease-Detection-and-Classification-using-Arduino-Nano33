@@ -10,17 +10,19 @@
 - **User-friendly interface** for easy interpretation of results.
 - **Affordable and accessible** solution for rural healthcare.
 
+##🔍 System Overview
+- 🔬 Hardware Setup (Arduino Nano 33 BLE Sense)
+![image](https://github.com/user-attachments/assets/7f412311-1de5-47a3-b8e1-ec132d3de166)
+
+  
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
 ```bash
  git clone https://github.com/codeshark304/RespiraCare-Real-Time-Respiratory-Disease-Detection-and-Classification-using-Arduino-Nano33.git
  cd RespiroCare
 ```
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt  # Install Python dependencies
-```
-### 3️⃣ Set Up the Arduino Nano 33
+
+### 2️⃣ Set Up the Arduino Nano 33
 - Install the necessary libraries in the **Arduino IDE**.
 - Upload the provided firmware to the Arduino Nano 33.
 
