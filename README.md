@@ -1,7 +1,7 @@
-# RespiroCare: Real-Time Respiratory Disease Detection and Classification
+# RespiraCare: Real-Time Respiratory Disease Detection and Classification
 
 ## 🚀 Overview
-**RespiroCare** is an AI-powered respiratory disease detection system designed for rural patients. Using an **Arduino Nano 33** and machine learning, the system analyzes cough sounds in real-time to detect and classify potential respiratory conditions. This low-cost, portable solution aims to enhance early diagnosis and healthcare accessibility in underserved areas.
+**RespiraCare** is an AI-powered respiratory disease detection system designed for rural patients. Using an **Arduino Nano 33** and machine learning, the system analyzes cough sounds in real-time to detect and classify potential respiratory conditions. This low-cost, portable solution aims to enhance early diagnosis and healthcare accessibility in underserved areas.
 
 ## 🛠️ Features
 - **Real-time analysis** of cough patterns.
@@ -59,7 +59,7 @@
 ### 1️⃣ Clone the Repository
 ```bash
  git clone https://github.com/codeshark304/RespiraCare-Real-Time-Respiratory-Disease-Detection-and-Classification-using-Arduino-Nano33.git
- cd RespiroCare
+ cd RespiraCare
 ```
 
 ### 2️⃣ Set Up the Arduino Nano 33
