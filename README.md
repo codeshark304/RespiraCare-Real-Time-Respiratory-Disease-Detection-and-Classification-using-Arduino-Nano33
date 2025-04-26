@@ -47,14 +47,6 @@
 ![image](https://github.com/user-attachments/assets/30847e05-e8d8-4aff-8e6b-fe9447c872a0)
 
 
-
-
-- Output Display:
-
-
-   ![image](https://github.com/user-attachments/assets/2d01603b-4095-4e79-ae3c-ed41e2cfb06e)
-
-
 ## ⚡ Workflow
 
 
