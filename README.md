@@ -15,7 +15,7 @@
   
 ![image](https://github.com/user-attachments/assets/7f412311-1de5-47a3-b8e1-ec132d3de166)
 
-- 🖥️ Frontend Output
+- 🖥️ Frontend:
 
 
 ![image](https://github.com/user-attachments/assets/0e18d78c-8e8b-47ab-a628-079b692e1ae1)
